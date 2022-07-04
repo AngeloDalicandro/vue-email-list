@@ -14,7 +14,7 @@
 <body>
 
     <div id="root">
-        <ul>
+        <ul v-show="emails.length === emailsNumber">
             <li v-for="email in emails"> {{ email }}</li>  
         </ul>
     </div>
